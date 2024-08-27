@@ -20,7 +20,7 @@ function Profile() {
         <Button />
       </div>
     );
-  }); // why does this work only by removing the {} used in a regular javascript function expression with arrow syntax. couldn't I just use return.
+  }); 
 
   return <ul>{listItems}</ul>;
 }
