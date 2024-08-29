@@ -5,7 +5,7 @@ export default function MyProjects() {
    const [index, setIndex] = useState(0);
 
   function handleClick() {
-   if (index < data.projects.length-1)
+   if (index < data.players.length-1)
    {
       setIndex(index + 1);
    }
@@ -15,17 +15,17 @@ export default function MyProjects() {
    }
   }
 
-  let projects = data.projects;
-  let project = projects[index];
+  let players = data.players;
+  let singlePlayer = players[index];
 
   return (
     <div>
       <button onClick={handleClick}>
         Next
       </button>
-      <h2>{project.canvas} by {project.designer}
+      <h2>{singlePlayer.player} by {singlePlayer.author}
       </h2>
-      <img src={project.photoUrl} alt={project.alt} />
+      <img src={singlePlayer.photoUrl} alt={singlePlayer.alt} height="300px"/>
     </div>
   );
 }

@@ -2,9 +2,12 @@
    color: rgb(0, 147, 24);
    font-size: 1rem;
    font-style: italic;
+   font-family: 'Courier New', Courier, monospace;
+   text-align: left;
 }
 
 .choresHeading {
    color: black;
    text-decoration: underline;
 }
+

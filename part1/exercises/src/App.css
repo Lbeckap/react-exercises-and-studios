@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-color: #86e5ff;
+  padding: 10px;
+  height: 100vh;
+  max-height: 100vh;
+  max-width: 80vw;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -40,4 +46,16 @@
 .similarComponents {
   display:flex;
 justify-content:space-between;
+}
+
+h3 {
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+div {
+  background-color: azure;
+  padding-bottom: 5px;
+  border-radius: 3px;
 }
