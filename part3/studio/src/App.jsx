@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './App.css'
-import BoardAssignment from './components/BoardAssignment';
-import StatusChange from './components/StatusChange';
-import RecipeDisplay from './components/Recipe'; 
+import BoardAssignment from './components/BoardAssignment.jsx';
+import StatusChange from './components/StatusChange.jsx';
+import RecipeDisplay from './components/Recipe.jsx'; 
 
 function App() {
 

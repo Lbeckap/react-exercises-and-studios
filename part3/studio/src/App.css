@@ -44,8 +44,14 @@
 .recipePhotoBlock {
   display: flex;
   justify-content: space-evenly;
+  border-radius: 15px;
+  padding: 0 10px;
+  background-color: rgb(60, 67, 73);
+  margin-bottom: 5px;
 }
 
 .imageUpdates {
   object-fit: contain;
+  border-radius: 15px;
 }
+
